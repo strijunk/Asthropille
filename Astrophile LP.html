@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullscreen Background</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div><a href="">Home</a></div>
+        <div><a href="">MySpace</a></div>
+        <div><a href="">About</a></div>
+    </div>
+    <div class="main">
+        Astrophile
+    </div>
+    <div class="secondary">
+        Interested in space? Join us to make it more fun!
+    </div>
+    <div>
+        <a href="" class="button">Sign Up</a>
+    </div>
+</body>
+<style>
+    html{
+        background-image: url("Gargantua.jpg");
+        background-repeat: no-repeat;
+        background-position: 0 0 0 0;
+        background-size: cover;
+        max-width: 100%;
+        height: auto;
+    }
+    body{
+        padding: 20px;
+    }
+    .flex-container{
+        display: flex;
+        color: #fefefe;
+        font-family: Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        justify-content: center;
+        gap: 50px;
+    }
+    a{
+        color: #fefefe;
+        text-decoration: none;
+    }
+    a:hover{
+        color: lightblue;
+    }
+    .main{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: #fefefe;
+        font-size: 90px;
+        text-shadow: 0px 0px 5px lightgreen;
+        position: absolute;
+        top: 250px;
+        left: 140px;
+    }
+    .secondary{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fefefe;
+        font-size: 20px;
+        text-shadow: 0px 0px 1px lightyellow;
+        position: absolute;
+        top: 360px;
+        left: 140px;
+    }
+    .button{
+        position: absolute;
+        top: 420px;
+        left: 275px;
+        color: lightyellow;
+        font-weight: 500;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        font-size: 20px;
+        background-color: #313131;
+        padding: 10px 20px;
+        border-radius: 23px;
+    }
+    a.button:hover{
+        box-shadow: 0px 0px 10px lightsalmon;
+        background-color: #212121;
+        transition: 0.4s;
+    }
+</style>
+</html>
